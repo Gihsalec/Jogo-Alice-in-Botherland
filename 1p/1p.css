@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+ .link_underline{
+  text-decoration: none;
+ }
+
+}
+
+body{
+  background-image: url(../cartasvoa.jpg);
+  background-size:cover ;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+  font weight:500;
+  font-size:1.5em;
+}
+
+header{
+  border-width: 15px;
+  border-style: solid; 
+  border-color: darkred;
+  align-content: center;
+  text-align: center;
+  padding:5rem;
+  margin:5rem;
+}
+
+section {
+  align-content: center;
+    text-align: center;
+    font-size: 4rem;
+    background-color: black;
+  p {
+    a:visited {
+      color: darkred;
+      font-family: Arial, sans-serif;
+
+    }
+  }
+}

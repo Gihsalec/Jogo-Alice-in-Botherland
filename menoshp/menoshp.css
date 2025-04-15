@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../finalt.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    align-content: center;
+    text-align: center;
+    padding:3rem;
+    margin:3rem;
+}
+
+footer{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    align-content: center;
+    text-align: center;
+    padding:5px;
+    position:absolute; 
+    top:95%;
+    a:visited {
+        color: darkred;
+        font-family: Arial, sans-serif;
+    }
+  
+}
+
+button {
+    left: 50px;
+    background-color: darkred;
+    color: #F4F0EA;
+    padding: 25px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    transition: background-color 0.3s ease;
+    position:absolute; 
+    top:50%;
+    left:35%;
+}
+button:hover {
+    background-color: black;
+}
